@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 70px 200px 200px 200px ;
+    border: solid 1px;
+}
+
+.header {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: solid 1px;
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blue;
+
+}
+
+.project {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:2 ;
+    grid-row-end: 6;
+    background-color: skyblue;
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    border:2px white;
+}
+
+.announcements {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: skyblue;
+    border: solid 2px white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trending{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    text-align: center;
+    background-color: lightblue;
+    border: solid 2px white;
+    border-radius: 8px;
+}
+
+.card {
+    border: solid 1px;
+}
+
+.button {
+    display: flex;
+    margin-top: 10px;
+    
+    margin-left: 50px;
+    margin-right: 160px;
+    align-items: center;
+    
+}
+
+.filter{
+    margin-left: 300px;
+    border: solid 2px white;
+    border-radius: 8px;
+    
+    
+}
+
+#home #profile #messages #history #task #settings #support #privacy {
+    border-radius: 8px;
+    border: solid 1px white;
+    
+}
+
+.card {
+    border: solid 2px white;
+    border-radius: 8px;
+    text-align: center;
+}
